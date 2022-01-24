@@ -12,5 +12,5 @@ public interface IPipelineOrchestrator {
 	public IPipelineOrchestrator stop(IPipeline... pipelines);
 	public Collection<IPipeline> getPipelines();
 
-	public void accept(IEvent event);
+	public void accept(IEvent... events);
 }

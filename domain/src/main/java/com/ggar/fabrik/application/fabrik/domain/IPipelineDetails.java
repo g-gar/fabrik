@@ -5,5 +5,5 @@ public interface IPipelineDetails {
 	public State getState();
 	public IPipelineContext getContext();
 	public IPipelineInputFilter getPipelineEventFilter();
-	public INodeTraversalAlgorithm getNodeTraverseAlgorithm();
+	public INodeTraversalAlgorithm getNodeTraversalAlgorithm();
 }
