@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public abstract class PipelineOrchestrator implements IPipelineOrchestrator {
 
-	private final Collection<IPipeline> pipelines;
+	protected final Collection<IPipeline> pipelines;
 
 	protected PipelineOrchestrator() {
 		this.pipelines = new ArrayList<>();
